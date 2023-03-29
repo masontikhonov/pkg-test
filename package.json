@@ -1,0 +1,22 @@
+{
+  "name": "pkg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "compile:win": "pkg . -t node18-win -o ./bin/pkg-test.exe",
+    "compile:linux": "pkg . -t node18-linux -o ./bin/pkg-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
